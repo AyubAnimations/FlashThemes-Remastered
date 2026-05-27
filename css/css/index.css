@@ -119,7 +119,7 @@ div#campaign_banner_container div.campaign_banner {
     position: relative;
 }
 div#campaign_banner_container div.banner1 {
-    background: transparent url("../images/mainbanner01.png") no-repeat 0 0;
+    background: transparent url("/static/ft/img/index/mainbanner01.png") no-repeat 0 0;
 }
 div#campaign_banner_container div.banner2 {
     background: transparent url("/static/ft/img/index/march_madness2011/mainbanner02.jpg") no-repeat 0 0;
@@ -207,7 +207,7 @@ div#campaign_banner_container div.campaign_banner div.watch_video a:hover {
     width: 224px;
 }
 #animate_now1 {
-    background-image: url(../images/main_td_bg_01.gif);
+    background-image: url(/static/ft/img/v2/main_td_bg_01.gif);
 }
 #animate_now3 {
     background-image: url(/static/ft/img/v2/main_td_bg_03.gif);
@@ -348,7 +348,7 @@ div.thumb div.thumb_title {
     overflow: hidden;
 }
 div.movie_views {
-    background: transparent url(../images/viewed_icon.gif) no-repeat scroll 0 -5px;
+    background: transparent url(/static/ft/img/v2/viewed_icon.gif) no-repeat scroll 0 -5px;
     font-size: 12px;
     color: #7bb1de;
     float: left;

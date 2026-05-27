@@ -336,7 +336,7 @@ div.page_nav span.next a:link,
 div.page_nav span.next a:visited {
     padding-right: 20px;
     margin-right: 20px;
-    background: url(../images/btn_arrow_next.gif) right -2px no-repeat;
+    background: url(/static/ft/img/btn_arrow_next.gif) right -2px no-repeat;
     float: right;
 }
 
@@ -345,13 +345,13 @@ div.page_nav span.next a:active,
 div.page_nav span.next.disablednav a {
     color: #7bb1de;
     text-decoration: none;
-    background: url(../images/btn_arrow_next.gif) right -22px no-repeat;
+    background: url(/static/ft/img/btn_arrow_next.gif) right -22px no-repeat;
 }
 
 div.page_nav span.prev a:link,
 div.page_nav span.prev a:visited {
     padding-left: 20px;
-    background: url(../images/btn_arrow_prev.gif) left -2px no-repeat;
+    background: url(/static/ft/img/btn_arrow_prev.gif) left -2px no-repeat;
     float: left;
 }
 
@@ -360,7 +360,7 @@ div.page_nav span.prev a:active,
 div.page_nav span.prev.disablednav a {
     color: #7bb1de;
     text-decoration: none;
-    background: url(../images/btn_arrow_prev.gif) left -22px no-repeat;
+    background: url(/static/ft/img/btn_arrow_prev.gif) left -22px no-repeat;
 
 }
 
@@ -540,7 +540,7 @@ div.footerad {
 
 .signup_left .bottompic {
     float: left;
-    background: url("../images/signup03.gif") no-repeat left bottom;
+    background: url("/static/ft/img/v2/signup03.gif") no-repeat left bottom;
     padding-bottom: 20px;
 }
 
@@ -553,13 +553,13 @@ div.footerad {
     float: left;
     display: block;
     padding-left: 178px;
-    background: url("../images/signup01.gif") no-repeat left top;
+    background: url("/static/ft/img/v2/signup01.gif") no-repeat left top;
 }
 
 .signup_left .toppic {
     float: left;
     padding-top: 145px;
-    background: url("../images/signup02.gif") no-repeat left top;
+    background: url("/static/ft/img/v2/signup02.gif") no-repeat left top;
 }
 
 .signup_left .signup_form .label {
@@ -632,7 +632,7 @@ div.footerad {
 .btn_sty {
     font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
     color: #000;
-    background: url(../images/btn_bg.gif) repeat-x bottom #efd0b3;
+    background: url(/static/ft/img/btn_bg.gif) repeat-x bottom #efd0b3;
     margin: 0;
     height: 24px;
     padding: 2px 5px;
@@ -799,7 +799,7 @@ div.rightpanel a.hoverUnderline:hover {
     height: 150px;
     padding: 10px 20px 10px 10px;
     text-align: center;
-    background: url(../images/user_points.gif) left top no-repeat;
+    background: url(/static/ft/img/v2/user_points.gif) left top no-repeat;
 }
 
 div#channel_overlay {
@@ -1186,11 +1186,11 @@ div#registerBanner div#signupButton {
 }
 
 div.signupButtonNormal {
-    background: url("../images/btn_signup.gif") left top no-repeat;
+    background: url("/static/ft/img/v2/btn_signup.gif") left top no-repeat;
 }
 
 div.signupButtonHover {
-    background: url("../images/btn_signup.gif") left -46px no-repeat;
+    background: url("/static/ft/img/v2/btn_signup.gif") left -46px no-repeat;
 }
 
 div#slideshowBanner {
@@ -1198,11 +1198,11 @@ div#slideshowBanner {
     width: 224px;
     height: 135px;
     cursor: pointer;
-    background: url("../images/homepage_slideshow.gif") left top no-repeat;
+    background: url("/static/ft/img/v2/homepage_slideshow.gif") left top no-repeat;
 }
 
 div#slideshowBanner:hover {
-    background: url("../images/homepage_slideshow.gif") left -135px no-repeat;
+    background: url("/static/ft/img/v2/homepage_slideshow.gif") left -135px no-repeat;
 }
 
 div#gradbunnyBanner {
@@ -1210,7 +1210,7 @@ div#gradbunnyBanner {
     width: 224px;
     height: 135px;
     cursor: pointer;
-    background: url("../images/homepage_graduation_banner.jpg") left top no-repeat;
+    background: url("/static/ft/img/v2/homepage_graduation_banner.jpg") left top no-repeat;
 }
 
 div.signupLink a:link,
@@ -1271,7 +1271,7 @@ div#domooverlay div#trybtn {
 
 div#domooverlay div#closebtn {
     font-size: 10px;
-    background: url("../images/btn_close.png");
+    background: url("https://web.archive.org/web/20110408223028im_/http://goanimate.com/static/domo/img/promotion/btn_close.png");
     position: absolute;
     width: 15px;
     height: 15px;
@@ -1322,12 +1322,12 @@ div.overlayClose a:visited {
     right: 60px;
     top: 12px;
     position: absolute;
-    background: transparent url(../images/btn_close_gray.png) left top no-repeat;
+    background: transparent url(/static/ft/img/dl_animation/btn_close_gray.png) left top no-repeat;
 }
 
 div.overlayClose a:hover,
 div.overlayClose a:active {
-    background: transparent url(../images/btn_close_gray.png) left -16px no-repeat;
+    background: transparent url(/static/ft/img/dl_animation/btn_close_gray.png) left -16px no-repeat;
 }
 
 div.overlay_tag_title {
@@ -1339,7 +1339,7 @@ div.overlay_tag_title {
     text-align: center;
     width: 450px;
     color: #333;
-    background: transparent url(../images/img_ziczac_bg.gif) left top repeat-y;
+    background: transparent url(/static/ft/img/v2/img_ziczac_bg.gif) left top repeat-y;
 }
 
 div.plusLabel60 {
@@ -1448,14 +1448,14 @@ div#growlfeedback {
 }
 
 .badge_30 {
-    background: transparent url(../images/badges_30.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/badge/badges_30.png?v=3) no-repeat 0 0;
     display: block;
     height: 30px;
     width: 30px;
 }
 
 .badge_50 {
-    background: transparent url(../images/badges_50.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/badge/badges_50.png?v=3) no-repeat 0 0;
     display: block;
     position: relative;
     height: 50px;
@@ -1476,7 +1476,7 @@ div#growlfeedback {
 }
 
 .badge_100 {
-    background: transparent url(../images/badges_100.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/badge/badges_100.png?v=3) no-repeat 0 0;
     display: block;
     position: relative;
     height: 100px;
@@ -1485,7 +1485,7 @@ div#growlfeedback {
 
 .badge_dark_box,
 .badge_light_box {
-    background: transparent url(../images/box_dark.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/badge/box_dark.png) no-repeat 0 0;
     padding: 25px;
     height: 100px;
     width: 100px;
@@ -1496,7 +1496,7 @@ div#growlfeedback {
 }
 
 .badge_light_box {
-    background-image: url(../images/box_light.png);
+    background-image: url(/static/ft/img/badge/box_light.png);
     float: left;
     margin: 0 30px 0 0;
 }
@@ -1560,32 +1560,32 @@ div#growlfeedback {
 }
 
 .footerad_cast1 {
-    background: url(../images/banner_bg001.jpg) no-repeat 0 0;
+    background: url(/static/ft/img/ad/banner_bg001.jpg) no-repeat 0 0;
     background-size: 1016px 284px;
 }
 
 .footerad_cast2 {
-    background: url(../images/banner_bg002.jpg) no-repeat 0 0;
+    background: url(/static/ft/img/ad/banner_bg002.jpg) no-repeat 0 0;
     background-size: 1016px 284px;
 }
 
 .footerad_cast3 {
-    background: url(../images/banner_bg003.jpg) no-repeat 0 0;
+    background: url(/static/ft/img/ad/banner_bg003.jpg) no-repeat 0 0;
     background-size: 1016px 284px;
 }
 
 .footerad_cast4 {
-    background: url(../images/banner_bg004.jpg) no-repeat 0 0;
+    background: url(/static/ft/img/ad/banner_bg004.jpg) no-repeat 0 0;
     background-size: 1016px 284px;
 }
 
 .footerad_cast5 {
-    background: url(../images/banner_bg005.jpg) no-repeat 0 0;
+    background: url(/static/ft/img/ad/banner_bg005.jpg) no-repeat 0 0;
     background-size: 1016px 284px;
 }
 
 .fb_request_overlay {
-    background: transparent url(../images/overlay_normal.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/overlay/overlay_normal.png) no-repeat 0 0;
     position: relative;
     width: 705px;
     height: 495px;
@@ -1599,7 +1599,7 @@ div#growlfeedback {
 }
 
 .fb_request_overlay .close_button {
-    background: transparent url(../images/btn_close.gif) no-repeat 0 0;
+    background: transparent url(/static/ft/img/overlay/btn_close.gif) no-repeat 0 0;
     display: block;
     height: 14px;
     width: 15px;
@@ -1635,7 +1635,7 @@ div#growlfeedback {
 }
 
 #daily_game_overlay .close_button {
-    background: transparent url(../images/btn_close.gif) no-repeat 0 0;
+    background: transparent url(/static/ft/img/overlay/btn_close.gif) no-repeat 0 0;
     display: block;
     height: 14px;
     width: 15px;
@@ -1668,21 +1668,21 @@ div#growlfeedback {
 }
 
 .overlaybox {
-    background: transparent url(../images/overlay_normal.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/overlay/overlay_normal.png) no-repeat 0 0;
     position: relative;
     width: 705px;
     height: 495px;
 }
 
 .overlaybox.large {
-    background: transparent url(../images/overlay_large.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/overlay/overlay_large.png) no-repeat 0 0;
     position: relative;
     width: 805px;
     height: 565px;
 }
 
 .overlaybox.small {
-    background: transparent url(../images/overlay_small.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/overlay/overlay_small.png) no-repeat 0 0;
     position: relative;
     width: 498px;
     height: 350px;
@@ -1701,7 +1701,7 @@ div#growlfeedback {
 .overlaybox .close_button,
 .overlaybox.large .close_button,
 .overlaybox.small .close_button {
-    background: transparent url(../images/btn_close.gif) no-repeat 0 0;
+    background: transparent url(/static/ft/img/overlay/btn_close.gif) no-repeat 0 0;
     display: block;
     height: 14px;
     width: 15px;
@@ -1772,20 +1772,20 @@ div#growlfeedback {
 .big_badge_claim_overlay .xpbig{
 	float: left;
 	position: relative;
-	background: transparent url(../images/icon_xp.png) no-repeat 0 center;
+	background: transparent url(/static/ft/img/icons/icon_xp.png) no-repeat 0 center;
 	height: 60px;
     padding: 45px 0 45px 70px;
     margin-left: 0px;
 }
 
 .big_badge_claim_overlay .ftbig {
-    background-image: url(../images/icon_ft.png);
+    background-image: url(/static/ft/img/icons/icon_ft.png);
     float: right;
 }
 
 #claim_badge_overlay .ft,
 #claim_badge_overlay .xp {
-    background: transparent url(../images/icon_xp.png) no-repeat 0 center;
+    background: transparent url(/static/ft/img/icons/icon_xp.png) no-repeat 0 center;
     float: left;
     position: relative;
     height: 60px;
@@ -1798,7 +1798,7 @@ div#growlfeedback {
 }
 
 #claim_badge_overlay .ft {
-    background-image: url(../images/icon_ft.png);
+    background-image: url(/static/ft/img/icons/icon_ft.png);
     margin-top: -60px;
     background-size: 50%;
     float: right;
@@ -1838,7 +1838,7 @@ div#growlfeedback {
 }
 
 #claim_badge_overlay .desc .arrow {
-    background: transparent url(../images/ico_arrow_02.gif) no-repeat 0 0;
+    background: transparent url(/static/ft/img/dashboard/ico_arrow_02.gif) no-repeat 0 0;
     position: absolute;
     height: 8px;
     width: 15px;
@@ -1865,13 +1865,13 @@ div#growlfeedback {
 #claim_badge_overlay .buttonfacebook,
 #fb_connect_overlay .buttonfacebook,
 #tts_landing_overlay .buttonfacebook {
-    background-image: url(../images/icon_fb.png);
+    background-image: url(/static/ft/img/icons/icon_fb.png);
     background-position: 20px center;
     background-repeat: no-repeat;
 }
 
 #claim_badge_overlay .buttontwitter {
-    background-image: url(../images/icon_twitter.png);
+    background-image: url(/static/ft/img/icons/icon_twitter.png);
     background-position: 20px center;
     background-repeat: no-repeat;
 }
@@ -1925,34 +1925,34 @@ div#growlfeedback {
 
 body.timeset1,
 html.timeset1 {
-    background-image: url(../images/fade.png), linear-gradient(#029df7, #01ffe7);
+    background-image: url(/static/ft/img/index/fade.png), linear-gradient(#029df7, #01ffe7);
     background-color: #01ffe7;
     background-repeat: repeat-x;
 }
 
 body.timeset2,
 html.timeset2 {
-    background-image: url(../images/fade.png), linear-gradient(#64aff2, #8f41bb);
+    background-image: url(/static/ft/img/index/fade.png), linear-gradient(#64aff2, #8f41bb);
     background-color: #8f41bb;
     background-repeat: repeat-x;
 }
 
 body.timeset3,
 html.timeset3 {
-    background-image: url(../images/fade.png), linear-gradient(#016074, #00015e);
+    background-image: url(/static/ft/img/index/fade.png), linear-gradient(#016074, #00015e);
     background-color: #00015e;
     background-repeat: repeat-x;
 }
 
 body.timeset4,
 html.timeset4 {
-    background-image: url(../images/fade.png), linear-gradient(#000c52, #0026ff);
+    background-image: url(/static/ft/img/index/fade.png), linear-gradient(#000c52, #0026ff);
     background-color: #0026ff;
     background-repeat: repeat-x;
 }
 
 #loading.loading-active {
-    background: transparent url(../images/loading.gif) no-repeat 0 center;
+    background: transparent url(https://flashthemes.net/static/ft/img/dashboard/loading.gif) no-repeat 0 center;
     margin: 0 auto;
     width: 55px;
     height: 70px;

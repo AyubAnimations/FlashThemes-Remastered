@@ -2,12 +2,12 @@
   font-family: 'Droid Sans';
   font-style: normal;
   font-weight: bold;
-  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url('../fonts/DroidSans-Bold.ttf') format('truetype');
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url('/static/ft/ttf/DroidSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Anton';
   font-style: normal;
   font-weight: normal;
-  src: local('Anton'), url('../fonts/Anton.ttf') format('truetype');
+  src: local('Anton'), url('/static/ft/ttf/Anton.ttf') format('truetype');
 }

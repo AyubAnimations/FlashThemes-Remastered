@@ -50,7 +50,7 @@
     height: 14px;
     line-height: 14px;
     padding-right: 7px;
-    background: transparent url(../images/ico_view.png) no-repeat 0 0;
+    background: transparent url(https://flashthemes.net/static/ft/img/profile/ico_view.png) no-repeat 0 0;
 }
 
 .info {
@@ -130,11 +130,11 @@
 }
 
 .pagnationprev {
-    background-image: url('../images/rsspagebuttons.png');
+    background-image: url('/static/ft/img/rssplayer/rsspagebuttons.png');
 }
 
 .pagnationnext {
-    background-image: url('../images/rsspagebuttons.png');
+    background-image: url('/static/ft/img/rssplayer/rsspagebuttons.png');
     background-position-x: right;
 }
 
@@ -142,7 +142,7 @@
     width: 550px;
     height: 384px;
     background-color: #262626;
-    background-image: url('../images/endscreenbg.png');
+    background-image: url('/static/ft/img/rssplayer/endscreenbg.png');
     position: relative;
     top: -411px;
 }
@@ -204,11 +204,11 @@ h1.youjustwatchedtext {
 }
 
 #replaybutton .endscreenbutton {
-    background-image: linear-gradient(#ffffffdd, #ffffff00), url('../images/replaybutton.png');
+    background-image: linear-gradient(#ffffffdd, #ffffff00), url('/static/ft/img/rssplayer/replaybutton.png');
 }
 
 #sharebutton .endscreenbutton {
-    background-image: linear-gradient(#ffffffdd, #ffffff00), url('../images/sharebutton.png');
+    background-image: linear-gradient(#ffffffdd, #ffffff00), url('/static/ft/img/rssplayer/sharebutton.png');
 }
 
 #nextbutton .endscreenbutton {
@@ -236,12 +236,12 @@ h1.youjustwatchedtext {
     position: relative;
     width: 125px;
     height: 125px;
-    background-image: url(../images/1.png);
+    background-image: url(/static/ft/img/playbutton/1.png);
     background-size: 100%;
     top: 50%;
     transform: translateY(-50%);
 }
 
 #playbutton:hover {
-    background-image: url(../images/2.png);
+    background-image: url(/static/ft/img/playbutton/2.png);
 }

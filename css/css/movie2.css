@@ -22,7 +22,7 @@ div.brief_duration {
 }
 
 #movie_wrapper {
-    background: #333 url(../images/bg02.png) no-repeat 0 0;
+    background: #333 url(https://flashthemes.net/static/ft/img/common/bg02.png) no-repeat 0 0;
     color: #fff;
     padding: 20px 0 10px 0;
     width: 1016px;
@@ -59,7 +59,7 @@ div.brief_duration {
 }
 
 #movie_header .views {
-    background: #3e3e3e url(../images/ico_view.gif) no-repeat 4px 50%;
+    background: #3e3e3e url(https://flashthemes.net/static/ft/img/movie/ico_view.gif) no-repeat 4px 50%;
     border: 1px solid #666;
     float: right;
     padding: 3px 6px 3px 26px;
@@ -104,7 +104,7 @@ div.brief_duration {
 }
 
 .recommend_button {
-    background: #3f3f3f url(../images/ico_recommend.gif) no-repeat 2px 0;
+    background: #3f3f3f url(https://flashthemes.net/static/ft/img/movie/ico_recommend.gif) no-repeat 2px 0;
     border: 1px solid #999;
     color: #fff;
     display: block;
@@ -154,7 +154,7 @@ div.brief_duration {
     transition: all .3s ease-out;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
-    background-image: url(../images/icon_flag.png);
+    background-image: url(https://flashthemes.net/static/ft/img/movie/icon_flag.png);
     border: 1px solid #444;
     background-color: #333;
     color: #fff;
@@ -180,7 +180,7 @@ div.brief_duration {
 }
 
 #download_button {
-    background: #aaa url(../images/ico_download.gif) no-repeat -60px 50%;
+    background: #aaa url(https://flashthemes.net/static/ft/img/movie/ico_download.gif) no-repeat -60px 50%;
     border: 1px solid #ddd;
     color: #333;
     display: block;
@@ -196,11 +196,11 @@ div.brief_duration {
 }
 
 #download_button.active {
-    background: #f62 url(../images/ico_download.gif) no-repeat 0 50%;
+    background: #f62 url(https://flashthemes.net/static/ft/img/movie/ico_download.gif) no-repeat 0 50%;
 }
 
 #download_button.ready {
-    background: #6cb73a url(../images/ico_download.gif) no-repeat -30px 50%;
+    background: #6cb73a url(https://flashthemes.net/static/ft/img/movie/ico_download.gif) no-repeat -30px 50%;
 }
 
 #download_button span {
@@ -213,7 +213,7 @@ div.brief_duration {
 }
 
 #youtube_button {
-    background: transparent url(../images/btn_youtube01.gif) no-repeat 0 0;
+    background: transparent url(https://flashthemes.net/static/ft/img/movie/btn_youtube01.gif) no-repeat 0 0;
     display: block;
     float: right;
     position: relative;
@@ -251,7 +251,7 @@ div.brief_duration {
 }
 
 #youtube_button .desc .arrow {
-    background: transparent url(../images/ico_arrow_02.gif) no-repeat 0 0;
+    background: transparent url(https://flashthemes.net/static/ft/img/dashboard/ico_arrow_02.gif) no-repeat 0 0;
     position: absolute;
     height: 8px;
     width: 15px;
@@ -286,7 +286,7 @@ div.brief_duration {
 }
 
 #movie_options .label {
-    background: transparent url(../images/ico_option.png) no-repeat 5px center;
+    background: transparent url(https://flashthemes.net/static/ft/img/movie/ico_option.png) no-repeat 5px center;
     padding: 4px 0;
     height: 20px;
 }
@@ -355,31 +355,31 @@ div.brief_duration {
 }
 
 #movie_options .options_edit .options_icon {
-    background-image: url(../images/ico_edit.gif);
+    background-image: url(https://flashthemes.net/static/ft/img/movie/ico_edit.gif);
 }
 
 #movie_options .options_copy .options_icon {
-    background-image: url(../images/ico_copy.gif);
+    background-image: url(https://flashthemes.net/static/ft/img/movie/ico_copy.gif);
 }
 
 #movie_options .options_public .options_icon {
-    background-image: url(../images/ico_public.gif);
+    background-image: url(https://flashthemes.net/static/ft/img/movie/ico_public.gif);
 }
 
 #movie_options .options_unpublish .options_icon {
-    background-image: url(../images/ico_unpublish.gif);
+    background-image: url(https://flashthemes.net/static/ft/img/movie/ico_unpublish.gif);
 }
 
 #movie_options .options_delete .options_icon {
-    background-image: url(../images/ico_delete.gif);
+    background-image: url(https://flashthemes.net/static/ft/img/movie/ico_delete.gif);
 }
 
 #movie_options .options_allow_copy .options_icon {
-    background-image: url(../images/ico_allow_copy.gif);
+    background-image: url(https://flashthemes.net/static/ft/img/movie/ico_allow_copy.gif);
 }
 
 #movie_options .options_allow_download .options_icon {
-    background-image: url(../images/ico_allow_download.gif);
+    background-image: url(https://flashthemes.net/static/ft/img/movie/ico_allow_download.gif);
 }
 
 #movie_aside {
@@ -589,13 +589,13 @@ div.brief_duration {
 }
 
 #movie_signup_block {
-    background: transparent url(../images/img_pirate.jpg) no-repeat 0 0;
+    background: transparent url(https://flashthemes.net/static/ft/img/movie/img_pirate.jpg) no-repeat 0 0;
     padding: 170px 0 0 30px;
     font-size: 14px;
 }
 
 #movie_signup.facebook {
-    background: transparent url(../images/signup_banner_fb.gif) no-repeat center 0;
+    background: transparent url(https://flashthemes.net/static/ft/img/movie/signup_banner_fb.gif) no-repeat center 0;
     color: #fff;
     font-size: 14px;
     height: 205px;
@@ -604,7 +604,7 @@ div.brief_duration {
 }
 
 #facebook_signup_button {
-    background: transparent url(../images/btn_fb.gif) no-repeat center 0;
+    background: transparent url(https://flashthemes.net/static/ft/img/landing/normal/btn_fb.gif) no-repeat center 0;
     display: block;
     margin: 0 auto 10px;
     height: 35px;
@@ -825,7 +825,7 @@ div.brief_duration {
 }
 
 #youtube_overlay_ad {
-    background: transparent url(../images/ad_yt_export.png) no-repeat 0 0;
+    background: transparent url(https://flashthemes.net/static/ft/img/movie/ad_yt_export.png) no-repeat 0 0;
     position: absolute;
     height: 312px;
     width: 342px;
@@ -974,7 +974,7 @@ div.brief_duration {
 
 .facebook_share {
     float: left;
-    background: url(../images/btn_fb_share.gif) no-repeat center 50%;
+    background: url(https://flashthemes.net/static/ft/img/movie/btn_fb_share.gif) no-repeat center 50%;
     width: 56px;
     height: 20px;
     padding: 12px 2px;
@@ -982,7 +982,7 @@ div.brief_duration {
 
 .twitter_share {
     float: left;
-    background: url(../images/btn_tw_tweet.gif) no-repeat center 50%;
+    background: url(https://flashthemes.net/static/ft/img/movie/btn_tw_tweet.gif) no-repeat center 50%;
     width: 55px;
     height: 20px;
     padding: 12px 3px;

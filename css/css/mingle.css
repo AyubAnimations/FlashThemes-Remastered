@@ -1,0 +1,305 @@
+div.content {
+    background-color: transparent;
+    margin: 0;
+    width: 1016px;
+}
+
+div.staff {
+    background-color: #333;
+    color: #666;
+    padding: 10px 58px;
+    border-radius: 10px 10px 0 0;
+}
+
+div.top_round {
+    border-radius: 10px 10px 0 0;
+}
+
+#mingle_container {
+    background-color: #eee;
+    padding: 20px 0;
+}
+
+div.left {
+    float: left;
+    width: 190px;
+    margin-top: 26px;
+    padding: 10px 10px 0 20px;
+    border-top: 1px solid #ccc;
+}
+
+#cell_list {
+    float: left;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 679px;
+    padding: 0 58px;
+}
+
+div.right {
+    float: left;
+    width: 796px;
+    margin: 0;
+    padding: 0 0 30px 0;
+    border: none;
+}
+
+div.staff h2 {
+    color: #ff7800;
+    font-size: 20px;
+}
+
+div.author_thumb {
+    float: left;
+    width: 250px;
+    margin: 20px 0 10px 0;
+    padding-left: 50px;
+    position: relative;
+}
+
+div.author_thumb img.author_thumb_img {
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border: 1px solid #ccc;
+}
+
+div.fb_thumb {
+    float: left;
+    width: 250px;
+    margin: 30px 0 10px 0;
+    padding-left: 50px;
+    position: relative;
+}
+
+img.fb_thumb_img {
+    background-color: white;
+    border: 1px solid #ccc;
+    float: left;
+    height: 50px;
+    margin: 0 10px 0 0;
+    padding: 20px;
+    width: 50px;
+}
+
+img.results_img {
+    border: 1px solid #ccc;
+}
+
+div.thumb {
+    float: left;
+    width: 160px;
+    margin: 0 0 10px 40px;
+}
+
+div.thumb div span {
+    float: right;
+    margin-right: 10px;
+}
+
+.browse ul {
+    clear: both;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.browse ul li {
+    line-height: 18px;
+}
+
+.browse .active {
+    display: block;
+    float: left;
+    width: 170px;
+    padding-left: 10px;
+    background-color: #5ba5be;
+    color: white;
+    font-weight: bold;
+}
+
+.browse ul li a {
+    display: block;
+    float: left;
+    width: 170px;
+    padding-left: 10px;
+    color: #808080;
+}
+
+.browse ul li a:hover {
+    background-color: #5ba5be;
+    color: #fff;
+}
+
+.pick {
+    text-align: center;
+}
+
+img.simplethumbimg {
+    border: 1px solid #ccc;
+}
+
+#cell_list .userdetails {
+    float: left;
+    background-color: #fff;
+    color: #666;
+    padding: 10px 0 10px 15px;
+    position: relative;
+    margin: 10px 0 10px 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 125px;
+}
+
+#cell_list .userdetails .name {
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#cell_list .userdetails .avatar {
+    height: 60px;
+    width: 60px;
+    float: left;
+    position: relative;
+}
+
+#cell_list .userdetails .avatar img {
+    height: 60px;
+    width: 60px;
+    vertical-align: top;
+}
+
+#cell_list .userdetails .plusLabel60 img {
+    height: 27px;
+    width: 28px;
+    vertical-align: top;
+}
+
+#cell_list .userdetails .data {
+    margin-left: 60px;
+    line-height: 30px;
+    height: 60px;
+    text-align: center;
+}
+
+#cell_list .userdetails .icon {
+    margin: 0 auto;
+}
+
+
+.thumb_title .title {
+    font-size: 12px;
+    display: block;
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.thumb_title a {
+    color: #5ba5be;
+    font-weight: bold;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#cell_list .userdetails .numbers {
+    clear: both;
+    padding-top: 10px;
+}
+
+#cell_list .userdetails .numbers .views {
+    background: transparent url('https://flashthemes.net/static/ft/img/profile/ico_view.png') no-repeat 0 center;
+    padding-left: 20px;
+}
+
+#cell_list .userdetails .numbers .animations {
+    background: transparent url('https://flashthemes.net/static/ft/img/profile/ico_animation.png') no-repeat 0 center;
+    padding-left: 20px;
+}
+
+#cell_list .userdetails .numbers .fans {
+    background: transparent url('https://flashthemes.net/static/ft/img/profile/ico_fans.png') no-repeat 0 center;
+    padding-left: 20px;
+}
+
+div.simplethumb {
+    position: relative;
+    width: 190px;
+}
+
+.filters {
+    float: right;
+    font-weight: bold;
+    font-size: 16;
+    margin-top: 8px;
+}
+
+.filters a {
+    color: #000;
+}
+
+.filters div {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.filters div:hover,
+div.active {
+    background-color: #ccc;
+}
+
+.list_no_animators {
+    padding: 100px 0 300px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pick .list_no_animators {
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #165b8a;
+    line-height: 26px;
+    height: 26px;
+    margin: 0;
+}
+
+h2 {
+    color: #165b8a;
+}
+
+div.page_nav {
+    margin-top: 7px;
+}
+
+div.author_title {
+    height: 26px;
+    line-height: 26px;
+}
+
+.author_title_sub {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 140px;
+}

@@ -116,7 +116,7 @@ div.logo {
     width: 150px;
 }
 #top_nav_search_icon {
-    background: transparent url(../images/img_magnifier.gif) no-repeat 0 0;
+    background: transparent url(/static/ft/img/header/img_magnifier.gif) no-repeat 0 0;
     height: 19px;
     width: 19px;
     margin-top: -4px;
@@ -189,7 +189,7 @@ div.logo {
     padding-left: 18px;
 }
 #header_discord_login {
-    background: transparent url(../images/discord.png) no-repeat 0 center;
+    background: transparent url(/static/ft/img/common/social_icons/colored/discord.png) no-repeat 0 center;
     background-size: 18px;
     padding: 2px 0px;
     padding-left: 22px;
@@ -212,7 +212,7 @@ div.logo {
 }
 #top_nav_points .icon,
 #top_nav_bucks .icon {
-    background: transparent url(../images/ico_point.png) no-repeat 0 0;
+    background: transparent url(/static/ft/img/dashboard/ico_point.png) no-repeat 0 0;
     position: absolute;
     top: -4px;
     left: -15px;
@@ -283,8 +283,8 @@ div.header_shadow {
     text-decoration: underline;
 }
 #header_new_badge {
-    background: transparent url(../images/icon_new_badge.png) no-repeat center left;
+    background: transparent url(/static/ft/img/common/icon_new_badge.png) no-repeat center left;
 }
 #header_new_message {
-    background: transparent url(../images/icon_new_msg.png) no-repeat center left;
+    background: transparent url(/static/ft/img/common/icon_new_msg.png) no-repeat center left;
 }

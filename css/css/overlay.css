@@ -116,7 +116,7 @@ div#overlayObject{
   position:absolute;
   z-index:50;
   margin:auto;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
   height: 18px;
   color:black;
 }
@@ -126,16 +126,16 @@ div#overlay_close{
   height:30px;
   cursor:pointer;
   margin-top: -24px;
-  background:url(../images/i2.gif) no-repeat -431px 0;
+  background:url(/static/ft/img/v2/i2.gif) no-repeat -431px 0;
 }
 div#overlay_close_preview:hover{
-  background:url(../images/i2.gif) no-repeat -431px -30px;
+  background:url(/static/ft/img/v2/i2.gif) no-repeat -431px -30px;
 }
 div#overlayObjectPreview{
   position:absolute;
   z-index:50;
   margin:auto;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
   color:black;
 }
 div#overlay_close_preview{
@@ -143,20 +143,20 @@ div#overlay_close_preview{
   width:34px;
   height:30px;
   cursor:pointer;
-  background:url(../images/i2.gif) no-repeat -431px 0;
+  background:url(/static/ft/img/v2/i2.gif) no-repeat -431px 0;
 }
 div#overlay_close:hover{
-  background:url(../images/i2.gif) no-repeat -431px -30px;
+  background:url(/static/ft/img/v2/i2.gif) no-repeat -431px -30px;
 }
 div.html_overlay_close{
   float:right;
   width:34px;
   height:30px;
   cursor:pointer;
-  background:url(../images/i2.gif) no-repeat -431px 0;
+  background:url(/static/ft/img/v2/i2.gif) no-repeat -431px 0;
 }
 div.html_overlay_close:hover{
-  background:url(../images/i2.gif) no-repeat -431px -30px;
+  background:url(/static/ft/img/v2/i2.gif) no-repeat -431px -30px;
 }
 div.html_overlay_alert_close{
   float:right;
@@ -176,10 +176,10 @@ div#overlayProgressClose{
   width:34px;
   height:30px;
   cursor:pointer;
-  background:url(../images/i2.gif) no-repeat -431px 0;
+  background:url(/static/ft/img/v2/i2.gif) no-repeat -431px 0;
 }
 div#overlayProgressClose:hover{
-  background:url(../images/i2.gif) no-repeat -431px -30px;
+  background:url(/static/ft/img/v2/i2.gif) no-repeat -431px -30px;
 }
 div#importgmailbtn{
   float:right;
@@ -287,7 +287,7 @@ div#overlayWaiting{
   left: 50%;
   transform: translateX(-50%);
   width:300px;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
 }
 div#overlayWaitingTitle{
   color:#fff;
@@ -308,7 +308,7 @@ div#overlayHTMLBoxTitle{
 div#overlayAlertBox{
   left:100px;
   width:350px;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
 }
 div#overlayAlertBoxTitle{
   color:#fff;
@@ -324,7 +324,7 @@ div#overlayAlertBoxBtn{
 div#overlayConfirmBox{
   left:100px;
   width:350px;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
 }
 div#overlayConfirmBoxTitle{
   color:#fff;
@@ -346,7 +346,7 @@ div#overlayConfirmCancelBtn{
 div#overlayReportBox{
   left:100px;
   width:380px;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
 }
 div#overlayReportBoxTitle{
   color:#fff;
@@ -373,7 +373,7 @@ span#reportBoxMessage{
 div#overlayRadioBox{
   left:100px;
   width:350px;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
 }
 div#overlayRadioBoxTitle{
   color:#fff;
@@ -404,7 +404,7 @@ input#radioTextBox{
 div#overlayInputBox{
   left:100px;
   width:350px;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
 }
 div#overlayInputBoxTitle{
   color:#fff;
@@ -434,7 +434,7 @@ input#inputTextBox{
 div#overlayProgressBox{
   left:100px;
   width:350px;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
 }
 div#overlayProgressBoxTitle{
   color:#fff;
@@ -450,7 +450,7 @@ div#overlayProgressBoxBtn{
 div#overlaySSPreviewBox{
   left:-8px;
   width:578px;
-  background: url(../images/overlay_title01_bg.gif) left top repeat-x;
+  background: url(https://flashthemes.net/static/ft/img/v2/overlay_title01_bg.gif) left top repeat-x;
 }
 div.ss-home-preview-btn{
   width:548px;
@@ -572,11 +572,11 @@ div.autosave_time{
 }
 div.loadingBar {
   height: 20px;
-  background-image: url('../images/loadinggray.png');
+  background-image: url('/static/ft/img/dashboard/loadinggray.png');
   margin-top: 37px;
 }
 div.loadingBarFilled {
   height: 100%;
   width: 0%;
-  background-image: url('../images/loading.png');
+  background-image: url('/static/ft/img/dashboard/loading.png');
 }
