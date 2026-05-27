@@ -1,0 +1,290 @@
+div.header {
+    background-color: transparent;
+    width: 1016px;
+    height: 80px;
+    position: relative;
+	margin: 0 auto;
+    z-index: 1;
+}
+#header_underlay {
+    display: none;
+}
+div.logo {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+#gologo {
+    display: block;
+}
+#gologo img {
+    vertical-align: top;
+	height: 55px;
+}
+#headertopnavmenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 700px;
+    z-index: 10;
+}
+#headertopnavmenu a {
+    color: #fff;
+    font-weight: bold;
+}
+#headertopnavmenu a:hover {
+    color: #ff7000;
+    text-decoration: underline;
+}
+.header_block {
+    color: #fff;
+    float: right;
+    margin-left: 10px;
+}
+#top_nav {
+    background-color: #333;
+    list-style: none;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#top_nav .top_nav_item {
+    float: left;
+    padding: 10px 0;
+    position: relative;
+}
+#top_nav .top_nav_item a {
+    display: block;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 15px;
+    border-right: 2px solid #666;
+}
+* html #top_nav .top_nav_item a {
+    display: inline-block;
+}
+#top_nav .top_nav_submenu {
+    display: none;
+    background-color: #244650;
+    margin: 0;
+    padding: 5px 0;
+    float: left;
+    list-style: none;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    text-align: center;
+    width: 125px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+* html #top_nav .top_nav_submenu {
+    top: 38px;
+    width: 110px;
+}
+#top_nav li:hover ul,
+#top_nav li.hover ul {
+    display: block;
+}
+#top_nav .top_nav_submenu li {
+    background-color: #244650;
+    padding: 0 10px;
+    display: block;
+    float: none;
+}
+#top_nav .top_nav_submenu li.first {
+    position: relative;
+}
+#top_nav .top_nav_submenu li .arrow:before {
+    content: "";
+    position: absolute;
+    border: 7px solid transparent;
+    border-bottom: 8px solid #244650;
+    top: -20px;
+    left: 15px;
+}
+#top_nav .search ul {
+    left: auto;
+    right: 0;
+    width: 150px;
+}
+#top_nav_search_icon {
+    background: transparent url(../images/img_magnifier.gif) no-repeat 0 0;
+    height: 19px;
+    width: 19px;
+    margin-top: -4px;
+}
+#top_nav_search_icon:hover {
+    background-position: 0 -19px;
+}
+#top_nav .create {
+    background-color: #5ba5be;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+}
+#top_nav .search a,
+#top_nav .create a {
+    border: none;
+}
+#top_nav .search a {
+    width: 19px;
+    height: 19px;
+}
+#top_nav .top_nav_submenu a {
+    display: block;
+    padding: 4px 0;
+    border: none;
+    text-align: left;
+    height: 100%;
+}
+* html #top_nav .top_nav_submenu a {
+    display: block;
+    padding: 4px 0;
+    border: none;
+    text-align: left;
+}
+#searchbar {
+    margin-left: 49px;
+    margin-bottom: -3px;
+    width: 0px;
+    position: relative;
+    top: -19px;
+    border: 2px solid transparent;
+    outline: 2px solid transparent;
+    transition: 1s;
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+}
+
+#searchbar.active {
+    margin-right: 10px;
+    width: 200px;
+    outline: 2px solid #222;
+    padding-left: 5px;
+}
+
+#top_nav .top_nav_item.search {
+    height: 0px;
+}
+#top_nav a.alert {
+    color: #dc143c;
+}
+#header_links {
+    padding: 8px 0;
+}
+#header_links a {
+    color: #ccc;
+}
+#header_fb_connect {
+    background: transparent url(/static/ft/img/fb/ico_fb.gif) no-repeat 0 center;
+    padding-left: 18px;
+}
+#header_discord_login {
+    background: transparent url(../images/discord.png) no-repeat 0 center;
+    background-size: 18px;
+    padding: 2px 0px;
+    padding-left: 22px;
+}
+#top_nav_points,
+#top_nav_bucks {
+    background-color: #a0a0a0;
+    border: 1px solid #fff;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    padding: 0 6px 0 14px;
+    margin: 8px 0 0 18px;
+    height: 16px;
+    line-height: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+#top_nav_points .icon,
+#top_nav_bucks .icon {
+    background: transparent url(../images/ico_point.png) no-repeat 0 0;
+    position: absolute;
+    top: -4px;
+    left: -15px;
+    height: 24px;
+    width: 24px;
+}
+#top_nav_bucks .icon {
+    background-position: 0 -96px;
+}
+#searchForm {
+    margin: 0;
+    padding: 0;
+}
+#criteria {
+    border: none;
+    color: #fff;
+    background-color: #15333d;
+    padding: 5px;
+    margin: 5px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 120px;
+}
+div.header_shadow {
+    height: 10px;
+    width: 960px;
+}
+#feedback_block {
+    padding: 5px 14px 0;
+}
+#feedback_block div {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+#feedback_block div.info {
+    color: #576b9d;
+    background-color: #eaedf5;
+    border: 1px #576b9d solid;
+}
+#feedback_block div.error {
+    color: #c03;
+    background-color: #f0dce1;
+    border: 1px #c03 solid;
+}
+#header_alert {
+    background-color: #244650;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#header_alert a {
+    color: #fff;
+    font-weight: bold;
+    margin: 0 5px;
+    padding-left: 25px;
+}
+#header_alert a:hover {
+    text-decoration: underline;
+}
+#header_new_badge {
+    background: transparent url(../images/icon_new_badge.png) no-repeat center left;
+}
+#header_new_message {
+    background: transparent url(../images/icon_new_msg.png) no-repeat center left;
+}
