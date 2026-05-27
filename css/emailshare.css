@@ -1,0 +1,794 @@
+div#overlayShareEmail {
+	background-color: #FFF;
+	border: 4px solid #DDD;
+	height: 410px;
+	left: -90px;
+	padding: 15px 28px;
+	top: -246px;
+	width: 640px;
+}
+
+div#overlayShareEmailClose a:link,
+div#overlayShareEmailClose a:visited {
+	display: block;
+	float: right;
+	width: 22px;
+	height: 22px;
+	margin: -5px -16px 0 0;
+	background: transparent url(https://flashthemes.net/static/ft/img/email_import/close.gif) left top no-repeat;
+}
+
+div#overlayShareEmailClose a:hover,
+div#overlayShareEmailClose a:active {
+	background: transparent url(https://flashthemes.net/static/ft/img/email_import/close.gif) left -22px no-repeat;
+}
+
+div#overlayContactTitle {
+	color: #7F7F7F;
+	font-size: 19px;
+	line-height: 19px;
+	width: 500px;
+	float: left;
+}
+
+div#overlayContactClose a:link,
+div#overlayContactClose a:visited {
+	display: block;
+	float: right;
+	width: 22px;
+	height: 22px;
+	margin: -5px -16px 0 0;
+	background: transparent url(https://flashthemes.net/static/ft/img/email_import/close.gif) left top no-repeat;
+}
+
+div#overlayContactClose a:hover,
+div#overlayContactClose a:active {
+	background: transparent url(https://flashthemes.net/static/ft/img/email_import/close.gif) left -22px no-repeat;
+}
+
+div#overlayContact {
+	background-color: #FFF;
+	border: 4px solid #DDD;
+	height: 445px;
+	left: -123px;
+	padding: 15px 28px;
+	top: -246px;
+	width: 711px;
+}
+
+div#contactLoginErr {
+	color: #C03;
+	float: left;
+	width: 550px;
+	margin-top: 2px;
+}
+
+div.contactLoginNote {
+	color: #9F9F9F;
+	float: right;
+	font-size: 10px;
+	margin-right: 20px;
+	margin-top: -4px;
+	text-align: right;
+	width: 500px;
+}
+
+div#contactLoginForm {
+	background-color: #EDEDED;
+	border-bottom: 2px solid #4F4F4F;
+	border-top: 2px solid #4F4F4F;
+	float: left;
+	height: 87px;
+	margin: 7px 0 2px;
+	padding: 11px 0 5px 152px;
+	position: relative;
+	width: 567px;
+}
+
+div#contactLoginFormFrankie {
+	display: block;
+	height: 115px;
+	width: 163px;
+	top: -12px;
+	left: 0;
+	position: absolute;
+	background: transparent url(https://flashthemes.net/static/ft/img/email_import/img_frank3.gif) left bottom no-repeat;
+}
+
+div#contactLoginFormGoPoints {
+	color: #FFF;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	height: 64px;
+	left: 0;
+	padding: 45px 0 0 15px;
+	position: absolute;
+	top: -6px;
+	width: 137px;
+	background: transparent url(https://flashthemes.net/static/ft/img/email_import/img_gopoints.gif) left bottom no-repeat;
+}
+
+div.contactLoginHeading {
+	font-size: 14px;
+	float: left;
+	color: #4C4C4C;
+}
+
+div#usr_ttl {
+	color: #4C4C4C;
+	float: left;
+	font-size: 12px;
+	width: 200px;
+}
+
+div#pwd_ttl {
+	float: left;
+	padding: 0 10px 0 12px;
+	font-size: 12px;
+	color: #4C4C4C;
+	width: 225px;
+}
+
+input#usr_box {
+	width: 120px;
+}
+
+input#pwd_box {
+	width: 120px;
+}
+
+div.contactLoginFormT {
+	margin-bottom: 8px;
+}
+
+div#contactShareForm {
+	float: left;
+	margin: 5px 0;
+	width: 725px;
+	color: #777;
+}
+
+div#sndr_nm_ttl {
+	float: left;
+	text-align: right;
+	width: 145px;
+}
+
+div#sndr_nm_box {
+	float: left;
+	margin-right: 8px;
+	width: 170px;
+}
+
+div#sndr_ml_ttl {
+	width: 130px;
+	float: left;
+	text-align: right;
+}
+
+div#sndr_ml_box {
+	float: left;
+	width: 260px;
+}
+
+input#sndr_nm_input {
+	width: 160px;
+}
+
+input#sndr_ml_input {
+	width: 160px;
+}
+
+div#rcpt_ml_ttl {
+	float: left;
+	height: 83px;
+	margin-top: 10px;
+	text-align: right;
+	width: 145px;
+}
+
+div#rcpt_ml_box {
+	float: left;
+	width: 575px;
+	height: 83px;
+	margin-top: 10px;
+}
+
+textarea#rcpt_ml_area {
+	height: 78px;
+	width: 569px;
+}
+
+div#cntnt_ttl {
+	float: left;
+	width: 145px;
+	height: 95px;
+	margin-top: 5px;
+	text-align: right;
+}
+
+div#cntnt_box {
+	float: left;
+	width: 575px;
+	height: 95px;
+	margin-top: 5px;
+}
+
+textarea#cntnt_area {
+	height: 90px;
+	width: 569px;
+}
+
+div#contact_panel {
+	float: right;
+	height: 25px;
+	margin-top: 3px;
+	width: 720px;
+}
+
+div#imprt_cntct {
+	float: right;
+	width: 300px;
+}
+
+div#imprt_fans {
+	float: right;
+	width: 105px;
+}
+
+div#imprt_cntct_frame {
+	height: 47px;
+	left: 625px;
+	padding-top: 7px;
+	position: absolute;
+	top: 320px;
+	width: 118px;
+}
+
+div#imprt_cntct_msg {
+	text-align: right;
+}
+
+div#imprt_cntct_menu {
+	background-color: #E1E1E1;
+	height: 38px;
+	padding: 6px 10px;
+	width: 98px;
+}
+
+div#imprt_cntct_menu a:link,
+div#imprt_cntct_menu a:visited {
+	color: #949494;
+}
+
+div#imprt_cntct_menu a:hover,
+div#imprt_cntct_menu a:active {
+	color: #F2752F;
+}
+
+div.btn_box {
+	width: 718px;
+	position: absolute;
+	left: 30px;
+	top: 425px;
+	text-align: right;
+	margin-top: 8px;
+}
+
+div.prvw_btn {
+	display: block;
+	float: right;
+	font-size: 15px;
+	margin-top: 3px;
+	margin-right: 10px;
+}
+
+div.prvw_btn a:link,
+div.prvw_btn a:visited {
+	color: #8B8B8B;
+	text-decoration: underline;
+}
+
+div.prvw_btn a:hover,
+div.prvw_btn a:active {
+	color: #B5B5B5;
+	text-decoration: underline;
+}
+
+div.edt_btn {
+	display: block;
+	float: right;
+	font-size: 15px;
+	margin-top: 3px;
+	margin-right: 10px;
+}
+
+div.edt_btn a:link,
+div.edt_btn a:visited {
+	color: #8B8B8B;
+	text-decoration: underline;
+}
+
+div.edt_btn a:hover,
+div.edt_btn a:active {
+	color: #B5B5B5;
+	text-decoration: underline;
+}
+
+form#importform {
+	display: inline;
+}
+
+div#errMsg {
+	color: red;
+	font-size: 13px;
+	float: left;
+	text-align: center;
+	padding-left: 225px;
+	width: 280px;
+}
+
+div#overlayLoadingContact {
+	background-color: #EDEDED;
+	float: left;
+	height: 106px;
+	margin-top: 145px;
+	width: 719px;
+	color: #7B7B7B;
+	font-size: 24px;
+}
+
+div#overlayLoadingTextOI {
+	padding-top: 35px;
+	padding-left: 105px;
+	height: 50px;
+	float: left;
+}
+
+div#overlayLoadingTextGo {
+	padding-top: 35px;
+	padding-left: 185px;
+	height: 50px;
+	float: left;
+}
+
+div#overlayLoadingTextSnd {
+	padding-top: 35px;
+	padding-left: 260px;
+	height: 50px;
+	float: left;
+}
+
+div#overlayLoadingCaptcha {
+	padding-top: 35px;
+	padding-left: 260px;
+	height: 50px;
+	float: left;
+}
+
+div.dotdotdot {
+	margin-top: 35px;
+	float: left;
+}
+
+span#LoadingDotDotDot {
+	color: #7F7F7F;
+	font-size: 24px;
+}
+
+div.overlayLoadingBtn {
+	float: right;
+	margin: 148px 12px 0 0;
+}
+
+span.providerGmail {
+	background: transparent url(https://flashthemes.net/static/ft/img/welcome/btn_gmail.gif) no-repeat scroll 0 0;
+}
+
+span.providerYmail {
+	background: transparent url(https://flashthemes.net/static/ft/img/welcome/btn_yahoo.gif) no-repeat scroll 0 0;
+}
+
+span.providerHotmail {
+	background: transparent url(https://flashthemes.net/static/ft/img/welcome/btn_hotmail.gif) no-repeat scroll 0 0;
+}
+
+span.providerAol {
+	background: transparent url(https://flashthemes.net/static/ft/img/welcome/btn_aol.gif) no-repeat scroll 0 0;
+}
+
+div#overlayContactFound {
+	float: left;
+	height: 390px;
+	width: 719px;
+}
+
+div.overlayFoundText {
+	color: #7F7F7F;
+	font-size: 24px;
+	margin-top: 105px;
+	height: 50px;
+	text-align: center;
+}
+
+span#FoundNum {
+	color: #E46C0A;
+	font-size: 30px;
+}
+
+div.overlayFoundImport {
+	margin-top: 30px;
+	height: 150px;
+}
+
+div#FoundSelect {
+	clear: both;
+	font-size: 16px;
+}
+
+div#FoundSelect a:link,
+div#FoundSelect a:visited {
+	color: #949494;
+	text-decoration: underline;
+}
+
+div#FoundSelect a:hover,
+div#FoundSelect a:active {
+	color: #FFD28C;
+	text-decoration: underline;
+}
+
+div.overlayFoundBtn {
+	float: right;
+	margin: 15px 12px 0 0;
+}
+
+div#overlayContactList {
+	float: left;
+	height: 390px;
+	width: 719px;
+}
+
+form#importlist {
+	display: inline;
+}
+
+div.ListTitle {
+	color: #979797;
+	font-size: 18px;
+	margin-top: 12px;
+}
+
+div#ListContacts {
+	background-color: #F5F5F5;
+	border: 2px solid #7B7B7B;
+	clear: both;
+	height: 290px;
+	margin: 0 0 3px 50px;
+	overflow: auto;
+	width: 610px;
+}
+
+div.ListContactBox {
+	color: #6EA5D6;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 24px;
+	overflow: hidden;
+	width: 300px;
+}
+
+div.ListBtn {
+	width: 710px;
+}
+
+div.ListSelAll {
+	margin: 0 0 3px 50px;
+}
+
+div.ListBtnCncl {
+	margin: 10px;
+	float: right;
+}
+
+div#overlaySharePreview {
+	float: left;
+	height: 384px;
+	width: 725px;
+	margin-top: 7px;
+}
+
+div#previewContainer {
+	width: 719px;
+	height: 383px;
+	background-color: #7F7F7F;
+	float: left;
+}
+
+div#previewLogo {
+	height: 50px;
+	width: 600px;
+	margin: 12px 0 0 18px;
+	background: transparent url(https://flashthemes.net/static/ft/img/v2/preview_logo.png) no-repeat scroll 0 0;
+}
+
+div#messageContainer {
+	border: 2px solid #FFF;
+	height: 300px;
+	margin-left: 65px;
+	width: 635px;
+}
+
+div#previewHeader {
+	background-color: #D0D0D0;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 5px 8px;
+}
+
+div#previewBody {
+	height: 206px;
+	width: 420px;
+}
+
+div#previewBtn {
+	margin: 11px;
+	text-align: center;
+}
+
+.previewBodyArea {
+	background-color: #FFF;
+	border: 0 none;
+	height: 243px;
+	margin-top: -1px;
+	width: 635px;
+}
+
+div#overlayShareComplete {
+	float: left;
+	height: 296px;
+	margin-top: 88px;
+	width: 719px;
+}
+
+div.ShareCompleteHeading {
+	color: #555;
+	font-size: 40px;
+	text-align: center;
+	width: 719px;
+}
+
+div.ShareCompleteText {
+	color: #555;
+	font-size: 17px;
+	margin-top: 17px;
+	text-align: center;
+	width: 719px;
+}
+
+div.ShareCompleteText h2 {
+	color: #E97518;
+	display: inline;
+}
+
+div#overlayCaptcha {
+	float: left;
+	height: 296px;
+	margin-top: 88px;
+	width: 587px;
+	padding-left: 132px;
+}
+
+div#overlayCaptcha div.captcha_box {
+	background-color: #EDEDED;
+	border-top: 2px solid #4F4F4F;
+	border-bottom: 2px solid #4F4F4F;
+	margin: 5px 0;
+	padding: 5px;
+	width: 450px;
+}
+
+div.captcha_btn_box {
+	width: 265px;
+}
+
+div#captcha_err {
+	color: #C03;
+	text-align: center;
+	width: 460px;
+	clear: both;
+}
+
+div.captcha img {
+	border: 1px solid gray;
+}
+
+div.captcha {
+	float: left;
+	margin-top: 5px;
+	width: 250px;
+}
+
+div#invite_container {
+	width: 546px;
+	height: 380px;
+	border: 2px solid #DCDCDC;
+	position: relative;
+	color: #979797;
+	margin-bottom: 35px;
+}
+
+div#invite_container div.inviteHeading {
+	background-color: #0e74e5;
+	position: relative;
+	top: 0;
+	height: 30px;
+	width: 100%;
+	color: white;
+	font-weight: bold;
+	font-size: 1.4em;
+	line-height: 30px;
+}
+
+div.inviteEml {
+	font-size: 19px;
+	color: #A3A3A3;
+	position: absolute;
+	top: 108px;
+	left: 35px;
+}
+
+div.invitePwd {
+	font-size: 19px;
+	color: #A3A3A3;
+	position: absolute;
+	top: 151px;
+	left: 35px;
+}
+
+.invite_input {
+	font-size: 19px;
+	height: 25px;
+	width: 210px;
+}
+
+div.inviteEmltxt {
+	position: absolute;
+	top: 106px;
+	left: 250px;
+}
+
+div.invitePwdtxt {
+	left: 250px;
+	position: absolute;
+	top: 148px;
+}
+
+div.invitefootnote {
+	font-size: 10px;
+	left: 15px;
+	position: absolute;
+	bottom: 10px;
+	width: 300px;
+}
+
+div.invitetxt {
+	color: #000;
+	font-size: 14px;
+	left: 35px;
+	position: absolute;
+	top: 257px;
+}
+
+div.inviteNote {
+	font-size: 10px;
+	left: 317px;
+	position: absolute;
+	bottom: 10px;
+	width: 220px;
+	text-align: right;
+}
+
+div.inviteLogo {
+	left: 35px;
+	position: absolute;
+	top: 50px;
+}
+
+.invite_close_bar {
+	position: absolute;
+	width: 542px;
+	top: 3px;
+	left: 0;
+}
+
+div#buybucks_container {
+	width: 546px;
+	height: 254px;
+	border: 2px solid #DCDCDC;
+	position: relative;
+	color: #000;
+	margin-bottom: 35px;
+	background: transparent url(https://flashthemes.net/static/ft/img/user/img_buybucks_title.gif) left top no-repeat;
+}
+
+#buybucks_close a:link,
+#buybucks_close a:visited {
+	float: right;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: url(https://flashthemes.net/static/ft/img/user/btn_buybucks_close.gif) left top no-repeat;
+}
+
+#buybucks_close a:hover,
+#buybucks_close a:active {
+	background: url(https://flashthemes.net/static/ft/img/user/btn_buybucks_close.gif) left -18px no-repeat;
+}
+
+.buybucks_close_bar {
+	position: absolute;
+	width: 542px;
+	top: 3px;
+	left: 0;
+	padding-top: 3px;
+}
+
+div.buybucks_txt1 {
+	font-size: 24px;
+	font-weight: bold;
+	left: 51px;
+	position: absolute;
+	top: 60px;
+}
+
+div.buybucks_txt2 {
+	font-size: 24px;
+	font-weight: bold;
+	left: 81px;
+	position: absolute;
+	top: 91px;
+}
+
+div.buybucks_txt3 {
+	font-size: 21px;
+	left: 113px;
+	position: absolute;
+	top: 141px;
+}
+
+div.buybucks_stickguy {
+	position: absolute;
+	left: 384px;
+	top: 42px;
+	width: 100px;
+	height: 200px;
+	background: url(https://flashthemes.net/static/ft/img/user/img_buybucks_stickfigure.gif) no-repeat 0 0;
+}
+
+div.buybucks_link a:link,
+div.buybucks_link a:visited {
+	position: absolute;
+	width: 224px;
+	height: 40px;
+	left: 121px;
+	top: 187px;
+	background: url(https://flashthemes.net/static/ft/img/user/btn_browse_gobucks.gif) no-repeat 0 0;
+}
+
+div.buybucks_link a:active,
+div.buybucks_link a:hover {
+	background-position: 0 -40px;
+}
+
+.RightColumnGAAdpromo {
+	background: url(https://flashthemes.net/static/ft/img/ad/img_ad_15000.png) no-repeat 0 0;
+}
+
+.RightColumnGAAdreg {
+	background: url(https://flashthemes.net/static/ft/img/ad/img_ad_6000.png) no-repeat 0 0;
+}

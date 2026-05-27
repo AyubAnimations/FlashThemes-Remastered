@@ -1,0 +1,247 @@
+.movieplayer {
+    height: 439px;
+    border: #fff 2px solid;
+    outline: 1px solid #b6b6b6;
+    background-color: #e1e1e1;
+    position: relative;
+}
+
+#player {
+    position: relative;
+}
+
+.playvideobutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.playvideobutton:hover {
+    filter: brightness(150%);
+}
+
+#movietitle {
+    text-align: left;
+    position: absolute;
+    left: 15px;
+    top: -3px;
+    font-size: 25px;
+    font-weight: bolder;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 550px;
+}
+
+#movietitle a {
+    color: #000;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#movietitle a:hover {
+    color: #ff7800;
+}
+
+.views {
+    float: right;
+    padding-left: 20px;
+    height: 14px;
+    line-height: 14px;
+    padding-right: 7px;
+    background: transparent url(https://flashthemes.net/static/ft/img/profile/ico_view.png) no-repeat 0 0;
+}
+
+.info {
+    font-size: 13px;
+    position: absolute;
+    bottom: 6px;
+    text-align: left;
+    padding: 0 15px;
+    width: 543px;
+}
+
+.rssmovies {
+    width: 559px;
+    height: 66px;
+    border: #b6b6b6 1px solid;
+    padding: 16.5px 0;
+}
+
+.rssmoviesunder {
+    width: 561px;
+    background-color: #b6b6b6;
+    height: 9px;
+    border-radius: 0 0 10px 10px;
+}
+
+.rssmovie {
+    float: left;
+    margin: 0 2px;
+    width: 100px;
+    height: 66px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 66px #000000 inset;
+    outline-offset: -3px;
+}
+
+.rssmovie:hover {
+    box-shadow: none;
+}
+
+.rssmovie.active {
+    box-shadow: none;
+    outline: 3px solid #ff7800;
+}
+
+.rssmovies>a {
+    float: left;
+}
+
+.rssmovies>a.rssmoviesnavnext {
+    float: right;
+}
+
+#rssmovies {
+    float: left;
+}
+
+.pagnationprev,
+.pagnationnext {
+    float: left;
+    width: 18.5px;
+    height: 66px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.pagnationprev:hover,
+.pagnationnext:hover {
+    background-position-y: -66px;
+}
+
+.pagnationprev.disabled,
+.pagnationnext.disabled,
+.pagnationprev.disabled:hover .pagnationnext.disabled:hover {
+    background-position-y: 0;
+    filter: brightness(150%);
+}
+
+.pagnationprev {
+    background-image: url('/static/ft/img/rssplayer/rsspagebuttons.png');
+}
+
+.pagnationnext {
+    background-image: url('/static/ft/img/rssplayer/rsspagebuttons.png');
+    background-position-x: right;
+}
+
+.rssendscreen {
+    width: 550px;
+    height: 384px;
+    background-color: #262626;
+    background-image: url('/static/ft/img/rssplayer/endscreenbg.png');
+    position: relative;
+    top: -411px;
+}
+
+.youjustwatched {
+    max-width: 375px;
+    background-color: #d0d0d030;
+    text-align: left;
+    border-radius: 10px;
+    position: relative;
+    top: 125px;
+    padding: 10px 10px 10px 10px;
+}
+
+.youjustwatched h1 {
+    margin: 10px 0 0 0;
+    width: fit-content;
+    max-width: 375px;
+    overflow-x: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+    padding: 0;
+    color: #ddd;
+}
+
+h1.youjustwatchedtext {
+    margin: 0;
+    color: #bbb;
+}
+
+.endscreenbuttons {
+    height: 72px;
+    width: fit-content;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.endscreenbuttons>a {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+}
+
+.endscreenbuttons>a:hover {
+    color: #ff912f;
+}
+
+.endscreenbutton {
+    background-color: #696969;
+    width: 72px;
+    height: 72px;
+    margin: 0 16px;
+    border-radius: 10px;
+    border: #fff 2px solid;
+    color: #fff;
+    font-size: 60px;
+}
+
+#replaybutton .endscreenbutton {
+    background-image: linear-gradient(#ffffffdd, #ffffff00), url('/static/ft/img/rssplayer/replaybutton.png');
+}
+
+#sharebutton .endscreenbutton {
+    background-image: linear-gradient(#ffffffdd, #ffffff00), url('/static/ft/img/rssplayer/sharebutton.png');
+}
+
+#nextbutton .endscreenbutton {
+    background-image: linear-gradient(#ffffffdd, #ffffff00);
+}
+
+.endscreenbuttons>a:hover>.endscreenbutton {
+    filter: brightness(125%);
+    color: #fff;
+}
+
+#moviepreview {
+    background-color: #000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+#playbutton {
+    display: none;
+    position: relative;
+    width: 125px;
+    height: 125px;
+    background-image: url(/static/ft/img/playbutton/1.png);
+    background-size: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#playbutton:hover {
+    background-image: url(/static/ft/img/playbutton/2.png);
+}

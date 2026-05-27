@@ -1,0 +1,94 @@
+h1,h2 {
+    font-family: 'Droid Sans',arial,sans-serif;
+}
+
+h1 {
+    color: #2b679b;
+    font-size: 24px;
+}
+
+h2 {
+    color: #313131;
+    font-size: 18px;
+}
+
+div.container {
+    background-color: #eee;
+}
+
+div.content {
+    clear: both;
+    width: 930px;
+    margin: 10px 0 50px 30px;
+}
+
+div.left {
+    float: left;
+    width: 500px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.right_image {
+    position: relative;
+    float: left;
+    width: 200px;
+    margin: 0px 0 -13px 0px;
+    top: -10px;
+    left: 36px;
+}
+
+.testimonial {
+    margin: 0;
+    text-align: center;
+    color: orange;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 40px;
+}
+
+.testi_user {
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+blockquote {
+    overflow: hidden;
+    background: url('https://flashthemes.net/static/ft/img/aboutus/bg_quote.gif') no-repeat;
+    width: 575px;
+    height: 115px;
+    margin: 0;
+    position: relative;
+}
+
+div>blockquote {
+    display: table;
+    position: static;
+}
+
+blockquote>div.inner1 {
+    display: table-cell;
+    position: static;
+    vertical-align: middle;
+}
+
+.quotes{
+    overflow: scroll;
+    width: 600px;
+    height: 570px;
+    direction: rtl;
+    overflow-x: hidden;
+    left: -15px;
+    position: relative;
+}
+
+.textfix{
+    direction: ltr;
+}
+
+#the_team {
+    border-radius: 15px 15px 0 0;
+}

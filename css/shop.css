@@ -1,0 +1,169 @@
+#shop_item {
+    border: 1px solid #ccc;
+    float: left;
+    width: 189px;
+    background-color: #ddd;
+    height: 0;
+    min-height: 400px;
+    overflow-y: hidden;
+    transition-duration: 0.5s;
+}
+#shop_item.inactive {
+    min-height: 0;
+    border: 1px solid #eee;
+}
+.shop_itempic {
+    height: 150px;
+    width: 189px;
+    float: left;
+    position: relative;
+    overflow-y: hidden;
+}
+.shop_itempic img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#shop_item h1, #shop_item h2, #shop_item h3 {
+    height: fit-content;
+    padding:0;
+    text-align: center;
+    word-break: break-word;
+}
+.shop_buyitem {
+    margin: 0 auto;
+}
+.price {
+    background: transparent url(/static/ft/img/dashboard/ico_point.png) no-repeat 0 0;
+    background-size: 14px;
+}
+.theme {
+    line-height: 20px;
+    width: 130px;
+}
+.sales {
+	background: transparent url(/static/ft/img/shop/icon_sales.png) no-repeat 0 0;
+	background-size: 14px;
+}
+
+.shop_assets:hover {
+    background-color: #ccebff;
+}
+.priceicon {
+    background: transparent url(/static/ft/img/dashboard/ico_point.png) no-repeat 0 0;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -3px;
+    display: inline-block;
+}
+#shop_buybutton {
+    display: block;
+    width: 169px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail {
+    background-color: #fff;
+    position: relative;
+}
+#thumbnail {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#ownername {
+    color: #5ba5be;
+    font-weight: bold;
+    overflow: hidden;
+    width: 100px;
+	display: inline;
+	text-overflow: ellipsis;
+	vertical-align: top;
+}
+
+.shop_assets .by {
+    float: left;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+
+.shop_assets {
+    color: #666;
+    margin: 5px 0;
+    padding: 10px 20px;
+    width: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+
+* html .shop_assets {
+    display: inline;
+}
+
+.shop_assets a {
+    color: #5ba5be;
+    font-weight: bold;
+    overflow: hidden;
+    width: 103px;
+	display: inline;
+	text-overflow: ellipsis;
+	vertical-align: top;
+}
+
+.shop_assets .title {
+    display: block;
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.shop_assets .thumbnail {
+    display: block;
+    height: 97px;
+    width: 150px;
+}
+
+.shop_assets img {
+    vertical-align: top;
+}
+
+.shop_assets .duration {
+    float: right;
+    font-size: 11px;
+    text-align: right;
+    width: 30px;
+}
+
+.shop_assets .data div {
+	float: left;
+	font-size: 11px;
+	padding-left: 20px;
+	height: 14px;
+	line-height: 14px;
+	width: 25px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.shop_assets .likes {
+    background: transparent url(https://flashthemes.net/static/ft/img/profile/ico_recommend.png) no-repeat 0 0;
+}

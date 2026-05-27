@@ -1,0 +1,257 @@
+div.content {
+    background-color: #eee;
+    margin: 0;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+#staff_picks {
+    background-color: #333;
+    padding: 10px 33px;
+    width: 950px;
+    border-radius: 10px 10px 0 0;
+}
+
+#staff_picks h2 {
+    color: #ff7800;
+    font-size: 20px;
+}
+
+#watch_container {
+    background-color: #eee;
+    padding: 20px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+div.left {
+    float: left;
+    width: 190px;
+    margin: 26px 0 0 0;
+    padding: 10px 10px 30px 20px;
+    border-top: 1px solid #ccc;
+}
+
+div.page_nav {
+    padding-top: 5px;
+}
+
+#cell_list {
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    float: left;
+    width: 795px;
+    text-align: center;
+}
+
+div.list_no_animations {
+    width: 550px;
+    height: 225px;
+    padding: 185px 0 0 64px;
+    font-size: 24px;
+}
+
+div.right {
+    float: right;
+    width: 796px;
+    margin: 0;
+    padding: 0 0 30px 0;
+}
+
+.browse {
+    display: block;
+}
+
+.lang_filter {
+    display: block;
+}
+
+.left h1 {
+    font-size: 16px;
+    clear: both;
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.browse ul {
+    clear: both;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.lang_filter ul {
+    clear: both;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.browse ul li,.lang_filter ul li {
+    line-height: 18px;
+}
+
+.browse .active,.lang_filter .active {
+    display: block;
+    float: left;
+    width: 170px;
+    padding-left: 10px;
+    background-color: #5ba5be;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.browse ul li a,div.lang_filter ul li a {
+    display: block;
+    float: left;
+    width: 170px;
+    padding-left: 10px;
+    color: #808080;
+}
+
+div.browse ul li a:hover,div.lang_filter ul li a:hover {
+    background-color: #5ba5be;
+    color: #fff;
+}
+
+#staffpickslist {
+    text-align: center;
+}
+
+.results {
+    color: #666;
+    margin: 5px 0;
+    padding: 10px 20px;
+    width: 150px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+#staffpickslist .results {
+    margin: 5px 15px;
+}
+
+* html .results {
+    display: inline;
+}
+
+.results a {
+    color: #5ba5be;
+    font-weight: bold;
+    overflow: hidden;
+    width: 103px;
+	display: inline;
+	text-overflow: ellipsis;
+	vertical-align: top;
+}
+
+.results .title {
+    display: block;
+    width: 150px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.results .thumbnail {
+    display: block;
+    height: 97px;
+    width: 150px;
+}
+
+.results img {
+    vertical-align: top;
+}
+
+.results .by {
+    float: left;
+    position: absolute;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+
+.results .duration {
+    float: right;
+    font-size: 11px;
+    text-align: right;
+    width: 30px;
+}
+
+.results .data div {
+    float: left;
+    font-size: 11px;
+    padding-left: 20px;
+    height: 14px;
+    line-height: 14px;
+    width: 55px;
+}
+
+.results .likes {
+    background: transparent url(https://flashthemes.net/static/ft/img/profile/ico_recommend.png) no-repeat 0 0;
+}
+
+.results .views {
+    background: transparent url(https://flashthemes.net/static/ft/img/profile/ico_view.png) no-repeat 0 0;
+}
+
+.filters {
+    float: right;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.filters a {
+    color: #000;
+}
+
+.filters div {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.filters div:hover,div.active {
+    background-color: #ccc;
+}
+
+h1 {
+    color: #165b8a;
+    line-height: 26px;
+    height: 26px;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.rss_icon {
+    background: transparent url(https://flashthemes.net/static/ft/img/v2/icon_rss.png) no-repeat scroll 0 center;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    height: 19px;
+    margin: 5px 0px 0px 250px;
+    width: 17px;
+}
+
+.roundtop {
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
