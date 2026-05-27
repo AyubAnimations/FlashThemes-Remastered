@@ -1,0 +1,1 @@
+var view_name="go";var user_cookie_name="ftcookie";var srv_tz_os = -4
